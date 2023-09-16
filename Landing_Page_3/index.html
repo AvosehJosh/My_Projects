@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/fontawesome.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Landing Page 3</title>
+</head>
+<body>
+    <header>
+        <a href=""><h1>Techie-J</h1></a>
+
+        <section class="menu">
+            <ul class="menu-list">
+                <li><a href="#">Home</a></li>
+                <li class="active"><a href="#">Product</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <button>
+                <i class="fas fa-times"></i>
+                <i class="fas fa-bars"></i>
+            </button>
+        </section>
+    </header>  
+
+    <section class="main">
+            <section class="left">
+                <p class="title">Information Technology</p>
+                <p class="msg">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Sunt voluptas nostrum doloremque fugit libero eum nobis 
+                    temporibus repellendus asperiores iste!
+                </p>
+                <button class="cta">Learn More</button>
+            </section>
+            <section class="right">
+                <img src="./images/Mesa de trabajo 1.svg" alt="Landing image">
+            </section>
+    </section>
+    
+    <script>
+        var menu = document.querySelector('.menu');
+        var menuBtn = document.querySelector('.menu button');
+        menuBtn.addEventListener('click', () => {
+            menu.classList.toggle('opened') 
+            menu.c   
+        })
+    </script>
+
+</body>
+</html>

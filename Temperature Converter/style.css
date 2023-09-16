@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    background: url(/Images/nathan-dumlao-OHzkfrv9Ycw-unsplash.jpg) no-repeat center center;
+    background-size: cover;
+    min-height: 100vh;
+    background-color: rgb(151, 151, 247);
+ }
+
+ .container{
+    background: rgb(246, 249, 250);
+    min-width: 450px;
+    height: 357px;
+    border-radius: 7px;
+    align-items: center; 
+    padding: 20px 40px;
+    opacity: 60%;
+    background-image: url(/Images/daniel-ramirez-q4TfWtnz_xw-unsplash.jpg);
+ }
+
+ .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+   padding-bottom: 5px;
+ }
+
+ .title h1{
+   color: aliceblue;
+   letter-spacing: 1.1;
+ }
+ .Temp-icon {
+    font-size: 40px;
+    color: white;
+    display: flex;
+ }
+
+ #celcius, #kelvin, #fahrenheit{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 25px;
+ }
+
+ input{
+   flex: 5;
+   height: 45px;
+   text-align: center;
+   border: none;
+   outline: none;
+   border-radius: 10px 0 0;
+   padding: 0 20px;
+   font-size: 20px;
+   font-weight: bold;
+ }
+
+ .icon{
+   flex: 1;
+   height: 45px;
+   text-align: center;
+   font-size: 30px;
+   color: white;
+   background: rgb(3, 2, 0);
+   border-radius: 0 10px 0 0;
+   padding-top: 5px;
+ }
+
+ .button{
+   margin-top: 20px;
+   text-align: center; /* This code justified btn center*/
+ }
+
+ button{
+   border: none;
+   outline: none;
+   font-size: 20px;
+   padding: 9px;
+   font-weight:600;
+   border-radius: 5px;
+   cursor: pointer;
+ }
+
+ @media (max-width:1100px) {
+  .container{
+    background: rgb(246, 249, 250);
+    min-width: 100px;
+    height: 350px;
+    border-radius: 7px;
+    align-items: center; 
+    padding: 12px 20px;
+    opacity: 60%;
+    background-image: url(/Images/daniel-ramirez-q4TfWtnz_xw-unsplash.jpg);
+ 
+  }
+ }
+
+ @media (max-width:550px) {
+   .container{
+    background: rgb(246, 249, 250);
+    min-width: 100px;
+    height: 380px;
+    border-radius: 7px;
+    align-items: center; 
+    padding: 10px 20px;
+    opacity: 60%;
+    background-image: url(/Images/daniel-ramirez-q4TfWtnz_xw-unsplash.jpg);
+ 
+   }
+ }
